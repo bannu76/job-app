@@ -1,0 +1,25 @@
+.job-details-bg-container {
+  background-color: #202020;
+}
+.job-details-container {
+  background-color: #000000;
+  padding: 8px;
+  color: aliceblue;
+}
+.similar-jobs-ul {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .similar-jobs-ul {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0px;
+  }
+}
