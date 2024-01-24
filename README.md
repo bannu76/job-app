@@ -317,22 +317,9 @@ Returns a response containing the job details
 
 </details>
 
-### Quick Tips
 
-<details>
-<summary>Click to view</summary>
-<br>
 
-- To convert a list of items as a comma-separated string we can use the array method `join()`
 
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
 
 **The following instructions are required for the tests to pass**
 
@@ -351,37 +338,6 @@ Returns a response containing the job details
 
   ```
 
-- Wrap the `Loader` component with an HTML container element and add the `data-testid` attribute value as **loader** to it
-
-  ```jsx
-  <div className="loader-container" data-testid="loader">
-    <Loader type="ThreeDots" color="#ffffff" height="50" width="50" />
-  </div>
-  ```
-
-- **Jobs Route**
-
-  - The HTML button element with search icon should have the `data-testid` attribute value as **searchButton** to it
-
-  ```jsx
-  <button type="button" data-testid="searchButton">
-    <BsSearch className="search-icon" />
-  </button>
-  ```
-
-  - The profile image should have the alt as **profile**
-  - The company logo images in Jobs Route should have the alt as **company logo**
-
-- **Job Details Route**
-  - The company logo image should have the alt as **job details company logo**
-  - The life at company image should have the alt as **life at company**
-  - The skill images should have the alt as the value of the key `name` from each object in the **skills** list received from the job details response
-  - The company logo image in similar job item should have the alt as **similar job company logo**
-  </details>
-
-### Resources
-
-<details>
 <summary>Image URLs</summary>
 
 - [https://assets.ccbp.in/frontend/react-js/home-sm-bg.png](https://assets.ccbp.in/frontend/react-js/home-sm-bg.png)
@@ -423,10 +379,3 @@ Returns a response containing the job details
 
 - Roboto
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
